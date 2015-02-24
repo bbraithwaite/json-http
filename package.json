@@ -1,0 +1,29 @@
+{
+  "name": "simple-http",
+  "version": "1.0.0",
+  "description": "Simple HTTP wrapper for Node.js http module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbraithwaite/simple-http.git"
+  },
+  "keywords": [
+    "node.js",
+    "http",
+    "wrapper"
+  ],
+  "author": "https://github.com/bbraithwaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbraithwaite/simple-http/issues"
+  },
+  "homepage": "https://github.com/bbraithwaite/simple-http",
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0",
+    "should": "^5.0.1"
+  }
+}
