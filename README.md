@@ -1,5 +1,11 @@
 # simple-http
 
-This is a demo module that contains a wrapper for making an http get request to a JSON endpoint in Node.js.
+A simple wrapper for making an http get request to a JSON endpoint in Node.js. Includes the ability to set a timeout.
 
-**Not for production.** It's just for learning.
+``` js
+var simpleHttp = require('simple-http');
+
+simpleHttp.getJson('http://localhost/api', function(err, response) {
+	console.log(response);      
+});
+```
