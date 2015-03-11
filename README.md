@@ -9,3 +9,14 @@ simpleHttp.getJson('http://localhost/api', function(err, response) {
 	console.log(response);      
 });
 ```
+
+## Using Timeout
+
+``` js
+var simpleHttp = require('simple-http');
+var timeoutInMilliSeconds = 2000;
+
+simpleHttp.getJson('http://localhost/api', timeoutInMilliSeconds, function(err, response) {
+	console.log(response);      
+});
+```
