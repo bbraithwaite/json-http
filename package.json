@@ -1,6 +1,6 @@
 {
   "name": "json-http",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple HTTP wrapper for Node.js http module",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
     "jshint": "^2.6.0",
     "mocha": "^2.1.0",
     "should": "^5.0.1"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
   }
 }
