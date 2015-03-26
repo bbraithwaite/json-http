@@ -13,7 +13,7 @@ jsonHttp.getJson('http://localhost/api', function(err, response) {
 ## Using Timeout
 
 ``` js
-var jsonHttp = require('simple-http');
+var jsonHttp = require('json-http');
 var timeoutInMilliSeconds = 2000;
 
 jsonHttp.getJson('http://localhost/api', timeoutInMilliSeconds, function(err, response) {
